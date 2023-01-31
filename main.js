@@ -27,8 +27,8 @@ function carousel() {
       x = width;
     }
   }
- 
-  function moveSecond() { 
+
+  function moveSecond() {
     x2 -= speed;
 
     if (list2.offsetWidth >= Math.abs(x2)) {
