@@ -787,16 +787,16 @@ footer {
 
     .projects {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         align-items: center;
         justify-content: space-between;
-        padding: 3rem 3rem 0rem 3rem;
+        padding: 4rem 4rem 0rem 4rem;
     }
 
     #project2,
     #project4 {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 
     .projects>.project_img>img {
@@ -805,19 +805,19 @@ footer {
     }
 
     .project_img {
-        width: 50%;
+        width: 40%;
     }
 
     .projects>.project_text {
-        width: 45%;
+        width: 55%;
     }
 
     .projects>.project_text>h3 {
-        width: 80%;
         font-family: var(--title);
-        font-size: var(--large-title);
+        font-size: var(--medium-title);
+        color: var(--blue);
         font-weight: 700;
-        line-height: 3rem;
+        line-height: 2rem;
         padding-bottom: 1rem;
     }
 
@@ -831,18 +831,18 @@ footer {
     }
 
     #project1 {
-        background-color: var(--l-grey);
-        box-shadow: 2px 2px 7px 0 rgba(207, 209, 220, 0.8), -2px -2px 7px 0 rgb(229 233 254);
+        background-color: var(--l-blue2);
+        box-shadow: 2px 2px 7px 0 rgb(183 186 204 / 80%), -2px -2px 7px 0 rgb(229 233 254);
     }
 
     #project2 {
-        background-color: var(--l-blue2);
-        box-shadow: 2px 2px 7px 0 rgb(183 186 204 / 80%), -2px -2px 7px 0 rgb(229 233 254);
+        background-color: var(--l-green);
+        box-shadow: 2px 2px 7px 0 rgb(214 221 212), -2px -2px 7px 0 rgb(239 243 237);
     }
 
     #project3 {
-        background-color: var(--l-blue2);
-        box-shadow: 2px 2px 7px 0 rgb(183 186 204 / 80%), -2px -2px 7px 0 rgb(229 233 254);
+        background-color: var(--l-orange);
+        box-shadow: 2px 2px 7px 0 rgb(238 219 209), -2px -2px 7px 0 rgb(252 239 233);  
     }
 
     #project4 {
@@ -851,8 +851,8 @@ footer {
     }
 
     #project5 {
-        background-color: var(--l-blue2);
-        box-shadow: 2px 2px 7px 0 rgb(183 186 204 / 80%), -2px -2px 7px 0 rgb(229 233 254);
+        background-color: var(--l-green);
+        box-shadow: 2px 2px 7px 0 rgb(214 221 212), -2px -2px 7px 0 rgb(239 243 237);
     }
 
     .cta_projects {
