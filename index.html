@@ -32,10 +32,25 @@
                 <img src="./img/Logo-mobile.png" alt="icon-logo" href="#" class="logo_mobile">
                 <img src="./img/Logo-desktop.png" alt="logo" class="logo_desktop">
             </div>
-            <div id="burger_menu">
-                <i class="fas fa-times " id="ouvert"></i> <i class="fas fa-bars" id="fermer"></i>
+            <div class="mobile_menu_wrapper">
+                <div id="burger_menu">
+                     <i class="fas fa-bars" id="fermer"></i>
+                </div>
+                <nav class="navigation" id="navigation">
+                    <div class="ouvert_wrapper">
+                        <i class="fas fa-times " id="ouvert"></i>
+                    </div>
+                    <div class="links-menu">
+                        <ul>
+                            <li class=""><a href="">Accueil</a> </li>
+                            <li class=""><a href="">À propos</a> </li>
+                            <li class=""><a href="">Travaux</a> </li>
+                            <li class=""><a href="">Contact</a> </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-            <nav class="navigation" id="navigation">
+            <nav class="navigation_desktop" id="navigation_desktop">
                 <div class="links-menu">
                     <ul>
                         <li class=""><a href="">Accueil</a> </li>
@@ -56,8 +71,7 @@
                 </div>
             </div>
             <div class="intro">
-                <h1 class="title">Jasmina Judith </h1>
-                <h1 class="title"><span>Web Designer</span></h1>
+                <h1 class="title"><span>Jasmina Judith</span> <span>Web Designer</span></h1>
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                     sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                     aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
@@ -68,7 +82,7 @@
                         <a href="#">Contactez-Moi !</a>
                     </div>
                     <div class="cv">
-                        <a href="#">Téléchargez mon cv</a>
+                        <a href="/Cv ux Ui design 2023.pdf">Téléchargez mon cv</a>
                     </div>
                 </div>
             </div>
@@ -77,28 +91,28 @@
             <div class="carousel__slider">
                 <ul class="carousel__list">
                     <li class="carousel__item">
-                        <img src="./img/ai.png" alt="">
+                        <div><img src="./img/ai.png" alt=""></div>
                     </li>
                     <li class="carousel__item">
-                        <img src="./img/id.png" alt="">
+                        <div><img src="./img/id.png" alt=""></div>
                     </li>
                     <li class="carousel__item">
-                        <img src="./img/xd.png" alt="">
+                        <div><img src="./img/xd.png" alt=""></div>
                     </li>
                     <li class="carousel__item">
-                        <img src="./img/figma.png" alt="">
+                        <div><img src="./img/figma.png" alt=""></div>
                     </li>
                     <li class="carousel__item">
-                        <img src="./img/worrdpress.png" alt="">
+                        <div><img src="./img/worrdpress.png" alt=""></div>
                     </li>
                     <li class="carousel__item">
-                        <img src="./img/woocommerce.png" alt="">
+                        <div><img src="./img/woocommerce.png" alt=""></div>
                     </li>
                     <li class="carousel__item">
-                        <img src="./img/shopify.png" alt="">
+                        <div><img src="./img/shopify.png" alt=""></div>
                     </li>
                     <li class="carousel__item">
-                        <img src="./img/prestashop.png" alt="">
+                        <div><img src="./img/prestashop.png" alt=""></div>
                     </li>
                 </ul>
             </div>
@@ -121,11 +135,11 @@
             </div>
             <div class="card_experiences">
                 <div class="card_design">
-                    <img src="./img/webdesign.png" alt="webdesign illustration" class="img_design  pb-3">
+                    <img src="./img/webdesign.png" alt="webdesign illustration" class="img_design  pb-4">
                     <h3>Web design & Ui design</h3>
                 </div>
                 <div class="card_dev">
-                    <img src="./img/webdeveloppement.png" alt="webdesign illustration" class="img_webdev pb-3">
+                    <img src="./img/webdeveloppement.png" alt="webdesign illustration" class="img_webdev pb-4">
                     <h3>Développement web</h3>
                 </div>
             </div>
@@ -133,7 +147,7 @@
         </div>
         <div class="travaux">
             <div class="travaux_intro">
-                <h2>Travaux réalisés</h2>
+                <h2>Travaux sélectionnés</h2>
                 <p>Découvrez une sélection des divers travaux réalisés au cours de
                     l’année, vous pourrez y retrouvez des projets dit “personnels”
                     ainsi que ceux réalisés dans un contexte professionnel.</p>
@@ -152,7 +166,7 @@
                         <img src="/img/eucoordination.png" alt="">
                     </div>
                 </div>
-                
+
                 <!--N°2-->
                 <div class="projects" id="project2">
                     <div class="project_text">
@@ -190,7 +204,7 @@
                         <img src="/img/oraa.png" alt="">
                     </div>
                 </div>
-                
+
                 <!--N°5-->
                 <div class="projects" id="project5">
                     <div class="project_text">
@@ -205,7 +219,7 @@
                 </div>
             </div>
             <div class="cta_projects">
-                <a href="#">Contactez-Moi !</a>
+                <a href="#">Voir plus</a>
             </div>
         </div>
         <footer>
@@ -226,20 +240,16 @@
                         </div>
                     </div>
                     <div class="intro_contact">
-                        <h3>Reston en contact</h3>
+                        <h3>Restons en contact</h3>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
                             sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                             aliquam erat volutpat.</p>
-                            <div class="infos_contact">
-                                <div class="mail">
-                                    <i id="icon" class="far fa-envelope" class="icon"></i>
-                                    <p> Email : jasminajudith.pro@gmail.com</p>
-                                </div>
-                                <div class="phone">
-                                    <i id="icon_2" class="fas fa-phone-alt"></i>
-                                    <p> Téléphone : +33 6 60 12 16 61</p>
-                                </div>
+                        <div class="infos_contact">
+                            <div class="mail">
+                                <i id="icon" class="far fa-envelope" class="icon"></i>
+                                <p>jasminajudith.pro@gmail.com</p>
                             </div>
+                        </div>
                     </div>
                 </div>
         </footer>
@@ -252,15 +262,15 @@
         }
         document.getElementById("ouvert").addEventListener('click', () => {
             document.getElementById("ouvert").style.display = 'none';
-            document.getElementById("fermer").style.display = 'block';
+            document.getElementById("fermer").style.display = 'flex';
             document.getElementById("navigation").style.display = 'none';
 
         })
 
         document.getElementById("fermer").addEventListener('click', () => {
             document.getElementById("fermer").style.display = 'none';
-            document.getElementById("ouvert").style.display = 'block';
-            document.getElementById("navigation").style.display = 'block';
+            document.getElementById("ouvert").style.display = 'flex';
+            document.getElementById("navigation").style.display = 'flex';
 
         })
     </script>
